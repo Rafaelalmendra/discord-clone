@@ -11,7 +11,7 @@ const ChannelData: React.FC = () => {
         <ChannelMessage
           author="Rafael Almendra"
           date="16/04/2021"
-          content="Hoje é meu aniversário"
+          content="Iaee pessoal"
         />
 
         <ChannelMessage
@@ -19,10 +19,10 @@ const ChannelData: React.FC = () => {
           date="16/04/2021"
           content= {
             <>
-              <Mention>@Rafael Alnendra</Mention>, me carrega no Valorant de novo por favor?
+              <Mention>@Rafael Almendra</Mention>, me carrega no Valorant de novo por favor?
             </>
           }
-          
+          hasMention
           isBot
         />
 
@@ -31,10 +31,10 @@ const ChannelData: React.FC = () => {
           date="16/04/2021"
           content= {
             <>
-              <Mention>@Rafael Alnendra</Mention>, sobe meu elo ai?
+              <Mention>@Rafael Almendra</Mention>, sobe meu elo ai?
             </>
           }
-          
+          hasMention
           isBot
         />
       </Messages>

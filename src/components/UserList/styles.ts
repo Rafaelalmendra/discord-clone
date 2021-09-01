@@ -67,7 +67,4 @@ export const Avatar = styled.div`
   height: 32px;
   border-radius: 50%;
   background-color: var(--primary);
-  &.bot {
-    background-color: var(--mention-detail);
-  }
 `;
